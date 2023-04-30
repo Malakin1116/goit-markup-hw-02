@@ -2,6 +2,14 @@
     accent-color: red ;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color:#FFFFFF
@@ -35,11 +43,8 @@ flex-grow: 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* NAVY BLUE */
 color: #2E2F42;
-/* Inside auto layout */
 flex: none;
 order: 2;
 flex-grow: 0;
@@ -50,10 +55,12 @@ flex-grow: 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* SLATE */
 color: #434455;
+}
+.contact-tel:hover,
+contact-tel:focus {
+color: var(accent-color)
 }
 
 .contact-mail {
