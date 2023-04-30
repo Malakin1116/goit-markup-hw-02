@@ -95,33 +95,32 @@ color: #434455;
 }
 
 .first-section{
-    position: absolute;
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 72px;
-        /* NAVY BLUE */
-        background: #2E2F42
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background: #2E2F42
 }
 
 .open-order-btd {
 display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 .secend-section {
-    position: absolute;
+position: absolute;
 width: 1128px;
 height: 104px;
 left: 156px;
@@ -129,7 +128,7 @@ top: 792px;
 }
 
 .three-section {
-    position: absolute;
+position: absolute;
 width: 1128px;
 height: 412px;
 left: 156px;
@@ -137,7 +136,7 @@ top: 1016px;
 }
 
 .four-section {
-    position: absolute;
+position: absolute;
 width: 1440px;
 height: 732px;
 left: 0px;
