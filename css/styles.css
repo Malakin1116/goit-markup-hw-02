@@ -17,7 +17,14 @@ body {
 }
 
 .page-header{
-
+    box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 
 .logo {
@@ -25,16 +32,31 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-/* identical to box height, or 117% */
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-/* NAVY BLUE */
 color: #2E2F42;
-/* Inside auto layout */
 flex: none;
 order: 1;
+flex-grow: 0;
+}
+
+.logo>span {
+    width: 44px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+flex: none;
+order: 0;
 flex-grow: 0;
 }
 
@@ -90,16 +112,36 @@ display: flex;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-
     position: absolute;
     width: 169px;
     height: 56px;
     left: 636px;
     top: 428px;
-
-    /* IRIS */
-
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+.secend-section {
+    position: absolute;
+width: 1128px;
+height: 104px;
+left: 156px;
+top: 792px;
+}
+
+.three-section {
+    position: absolute;
+width: 1128px;
+height: 412px;
+left: 156px;
+top: 1016px;
+}
+
+.four-section {
+    position: absolute;
+width: 1440px;
+height: 732px;
+left: 0px;
+top: 1548px;
 }
