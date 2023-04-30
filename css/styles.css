@@ -1,22 +1,66 @@
-h1 {
-    color: aqua;
-}
-
-p {
-    color: black;
-}
-
-/* sa */
-
-* {
-    color: tomato;
-}
-
-a{
-}
 
 .list {list-style: none;}
 
 .link {text-decoration: none;}
 
-button {cursor: pointer;}
+buttons {color: rgb(15, 15, 34);}
+
+button {
+    color: blue;
+}
+
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* NAVY BLUE */
+color: #2E2F42;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: #2E2F42;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.contact-tel {
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+}
+
+.contact-mail {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+}
+
