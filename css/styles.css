@@ -40,7 +40,7 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-line-height: 1.17
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -49,6 +49,15 @@ color: #2E2F42;
 flex: none;
 order: 1;
 flex-grow: 0;
+flex-direction: row;
+
+padding: 0px;
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+
 }
 
 .logo>span {
@@ -101,6 +110,20 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
+position: absolute;
+width: 151px;
+height: 24px;
+left: 1133px;
+top: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+color: #434455;
 }
 .contact-tel:hover,
 contact-tel:focus {
@@ -113,6 +136,22 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
+color: #434455;
+
+position: absolute;
+width: 153px;
+height: 24px;
+left: 940px;
+top: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+
 color: #434455;
 }
 
