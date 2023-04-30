@@ -1,0 +1,22 @@
+h1 {
+    color: aqua;
+}
+
+p {
+    color: black;
+}
+
+/* sa */
+
+* {
+    color: tomato;
+}
+
+a{
+}
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+button {cursor: pointer;}
