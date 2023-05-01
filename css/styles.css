@@ -2,7 +2,7 @@
     --main-font-family: "Roboto", sans-serif;
     --secondary-front-family: "Roleway", sans-serif;
     --primary-text-color: #2E2F42;
-        --title-text-color: #434455;
+    --title-text-color: #434455;
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F4F4FD;
     --accent-color: #4D5AE5;
@@ -18,7 +18,7 @@ list-style: none;
 text-decoration: none;
 }
 
-body {
+.body {
 font-family: 'Roboto', sans-serif;
 background-color:#FFFFFF;
 color: #434455;
@@ -29,18 +29,20 @@ left: 0px;
 top: 0px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
+text-decoration:none;
 }
 
-
-
-.page-header{
+.page-header {
 box-sizing: border-box;
 position: absolute;
+text-decoration: none
 width: 1440px;
 height: 72px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
+
+
 
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -52,7 +54,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: #4D5AE5;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -62,7 +64,7 @@ width: 115px;
 height: 24px;
 left: 156px;
 top: 24px;
-
+text-decoration:none;
 }
 
 .logo>span {
@@ -77,35 +79,59 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: #2E2F42;
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 
-.menu { display: flex;
-flex-direction: row;
-align-items: flex-start;
-position: absolute;
-width: 261px;
-height: 24px;
-left: 347px;
-top: 24px;
+.menu { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
+    text-decoration:none;
 }
 
-.menu-link {
-font-family: 'Roboto', sans-serif;
+.menu>.header-menu-list {
+width: 48px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #2E2F42;
+}
+
+:hover,
+contact-tel:focus {
+color: var(--accent-color)
+}
+
+
+.adress-contact-mail {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
 flex: none;
 order: 2;
 flex-grow: 0;
+list-style: none;
+text-decoration:none;
 }
 
-.contact-tel {
+.adress-contact-tel {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -119,12 +145,13 @@ left: 1133px;
 top: 24px;
 font-style: normal;
 }
-.contact-tel:hover,
+
+.adress-contact-tel:hover,
 contact-tel:focus {
 color: var(--accent-color)
 }
 
-.contact-mail {
+.adress-contact-mail {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
