@@ -1,5 +1,12 @@
 :root {
-    --accent-color: red ;
+    --main-font-family: "Roboto", sans-serif;
+    --secondary-front-family: "Roleway", sans-serif;
+    --primary-text-color: #2E2F42;
+        --title-text-color: #434455;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F4F4FD;
+    --accent-color: #4D5AE5;
+    --btn-hover-color: #404bbf;
 }
 
 
