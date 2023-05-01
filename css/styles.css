@@ -2,6 +2,7 @@
     --accent-color: red ;
 }
 
+
 .list {
 list-style: none;
 }
@@ -23,6 +24,8 @@ top: 0px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
+
+
 
 .page-header{
 box-sizing: border-box;
@@ -320,7 +323,6 @@ top: 1128px;
 box-sizing: border-box;
 width: 360px;
 height: 300px;
-background: url(2368);
 border: 1px solid #E7E9FC;
 flex: none;
 order: 0;
@@ -343,7 +345,6 @@ top: 1128px;
 box-sizing: border-box;
 width: 360px;
 height: 300px;
-background: url(2225);
 border: 1px solid #E7E9FC;
 flex: none;
 order: 0;flex-grow: 0;
@@ -365,7 +366,6 @@ top: 1128px;
 box-sizing: border-box;
 width: 360px;
 height: 300px;
-background: url(photo-1545235617-7a424c1a60cc);
 border: 1px solid #E7E9FC;
 flex: none;
 order: 0;
@@ -415,6 +415,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 border-radius: 0px 0px
 }
 
+.four-section-assembly-img-one {
+width: 264px;
+height: 260px;
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 .four-section-assembly-list-two {
 display: flex;
 flex-direction: column;
@@ -430,6 +439,15 @@ top: 1780px;
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+}
+
+.four-section-assembly-img-two {
+width: 264px;
+height: 260px;
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .four-section-assembly-list-three {
@@ -449,6 +467,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 border-radius: 0px 0px 4px 4px;
 }
 
+.four-section-assembly-img-three {
+width: 264px;
+height: 260px;
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 .four-section-assembly-list-four {
 display: flex;
 flex-direction: column;
@@ -464,6 +491,15 @@ top: 1780px;
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+}
+
+.four-section-assembly-img-four {
+width: 264px;
+height: 260px;
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .our-footer-end {
