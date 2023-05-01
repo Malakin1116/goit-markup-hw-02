@@ -22,7 +22,6 @@ body {
 font-family: 'Roboto', sans-serif;
 background-color:#FFFFFF;
 color: #434455;
-box-sizing: border-box;
 position: absolute;
 width: 1440px;
 height: 72px;
@@ -39,8 +38,6 @@ box-sizing: border-box;
 position: absolute;
 width: 1440px;
 height: 72px;
-left: 0px;
-top: 0px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
@@ -60,7 +57,6 @@ flex: none;
 order: 1;
 flex-grow: 0;
 flex-direction: row;
-padding: 0px;
 position: absolute;
 width: 115px;
 height: 24px;
@@ -90,9 +86,6 @@ flex-grow: 0;
 .menu { display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 0px;
-gap: 40px;
-
 position: absolute;
 width: 261px;
 height: 24px;
@@ -124,13 +117,7 @@ width: 151px;
 height: 24px;
 left: 1133px;
 top: 24px;
-font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #434455;
 }
 .contact-tel:hover,
 contact-tel:focus {
@@ -149,20 +136,13 @@ width: 153px;
 height: 24px;
 left: 940px;
 top: 24px;
-font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #434455;
 }
 
 .first-section{
 position: absolute;
 width: 1440px;
 height: 600px;
-left: 0px;
 top: 72px;
 background: #2E2F42
 }
@@ -187,15 +167,12 @@ color: #FFFFFF;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
 position: absolute;
 width: 169px;
 height: 56px;
 left: 636px;
 top: 428px;
 background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
@@ -211,8 +188,6 @@ top: 792px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 8px;
 position: absolute;
 width: 264px;
 height: 104px;
@@ -224,8 +199,6 @@ top: 792px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 8px;
 position: absolute;
 width: 264px;
 height: 104px;
@@ -237,8 +210,6 @@ top: 792px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 8px;
 position: absolute;
 width: 264px;
 height: 104px;
@@ -250,8 +221,6 @@ top: 792px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 8px;
 position: absolute;
 width: 264px;
 height: 104px;
@@ -314,11 +283,19 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-.three-section-list-one {
+.three-section-page{
+position: absolute;
+width: 1128px;
+height: 412px;
+left: 156px;
+top: 1016px;
+
+}
+
+.three-section>.list-one {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 position: absolute;
 width: 360px;
 height: 300px;
@@ -327,7 +304,7 @@ top: 1128px;
 }
 
 .three-section-img-one {
-box-sizing: border-box;
+
 width: 360px;
 height: 300px;
 border: 1px solid #E7E9FC;
@@ -336,11 +313,10 @@ order: 0;
 flex-grow: 0;
 }
 
-.three-section-list-two {
+.three-section>.list-two {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 position: absolute;
 width: 360px;
 height: 300px;
@@ -349,7 +325,6 @@ top: 1128px;
 }
 
 .three-section-img-two {
-box-sizing: border-box;
 width: 360px;
 height: 300px;
 border: 1px solid #E7E9FC;
@@ -357,11 +332,10 @@ flex: none;
 order: 0;flex-grow: 0;
 }
 
-.three-section-list-three {
+.three-section>.list-three {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 position: absolute;
 width: 360px;
 height: 300px;
@@ -370,7 +344,6 @@ top: 1128px;
 }
 
 .three-section-img-three {
-box-sizing: border-box;
 width: 360px;
 height: 300px;
 border: 1px solid #E7E9FC;
@@ -383,7 +356,6 @@ flex-grow: 0;
 position: absolute;
 width: 1440px;
 height: 732px;
-left: 0px;
 top: 1548px;
 background: #F4F4FD;
 }
@@ -410,22 +382,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px 0px 32px;
-gap: 32px;
 position: absolute;
 width: 264px;
 height: 380px;
 left: 156px;
 top: 1780px;
 background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px
 }
 
 .four-section-assembly-img-one {
 width: 264px;
 height: 260px;
-mix-blend-mode: normal;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -436,22 +403,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px 0px 32px;
-gap: 32px;
 position: absolute;
 width: 264px;
 height: 380px;
 left: 444px;
 top: 1780px;
 background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
 }
 
 .four-section-assembly-img-two {
 width: 264px;
 height: 260px;
-mix-blend-mode: normal;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -462,22 +424,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px 0px 32px;
-gap: 32px;
 position: absolute;
 width: 264px;
 height: 380px;
 left: 732px;
 top: 1780px;
 background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
 }
 
 .four-section-assembly-img-three {
 width: 264px;
 height: 260px;
-mix-blend-mode: normal;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -488,22 +445,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px 0px 32px;
-gap: 32px;
 position: absolute;
 width: 264px;
 height: 380px;
 left: 1020px;
 top: 1780px;
 background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
 }
 
 .four-section-assembly-img-four {
 width: 264px;
 height: 260px;
-mix-blend-mode: normal;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -513,7 +465,6 @@ flex-grow: 0;
 position: absolute;
 width: 1440px;
 height: 312px;
-left: 0px;
 top: 2280px;
 background: #2E2F42;
 }
@@ -522,7 +473,6 @@ background: #2E2F42;
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
 position: absolute;
 width: 115px;
 height: 24px;
