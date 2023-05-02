@@ -1,12 +1,12 @@
 :root {
-    --main-font-family: "Roboto", sans-serif;
-    --secondary-front-family: "Roleway", sans-serif;
-    --primary-text-color: #2E2F42;
-    --title-text-color: #434455;
-    --primary-bg-color: #FFFFFF;
-    --secondary-bg-color: #F4F4FD;
-    --accent-color: #4D5AE5;
-    --btn-hover-color: #404bbf;
+--main-font-family: "Roboto", sans-serif;
+--secondary-front-family: "Roleway", sans-serif;
+--primary-text-color: #2E2F42;
+--title-text-color: #434455;
+--primary-bg-color: #FFFFFF;
+--secondary-bg-color: #F4F4FD;
+--accent-color: #4D5AE5;
+--btn-hover-color: #404bbf;
 }
 
 .list {
@@ -44,7 +44,7 @@
         
         
         
-        .logo {
+        .page-header-logo  {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -55,19 +55,34 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        flex-direction: row;
-        position: absolute;
-        width: 115px;
-        height: 24px;
-        left: 156px;
-        top: 24px;
-        text-decoration:none;
-        }
+        display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+}
+
+.page-navigation {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+
+}
+
+
         
-        .logo>span {
+        .page-header-logo>span {
         width: 44px;
         height: 21px;
         font-family: 'Raleway';
@@ -95,11 +110,10 @@
         width: 261px;
         height: 24px;
         left: 347px;
-        top: 24px;
         text-decoration:none;
         }
         
-        .menu>.header-menu-list {
+        .menu.header-menu-list {
         width: 48px;
         height: 24px;
         font-family: 'Roboto';
