@@ -18,6 +18,21 @@ list-style: none;
 text-decoration: none;
 }
 
+
+.start{
+position: relative;
+width: 1440px;
+height: 2076px;
+background: #FFFFFF;
+}
+
+.starts{
+position: relative;
+width: 1440px;
+height: 2592px;
+background: #FFFFFF;
+}
+
 .body {
 font-family: 'Roboto', sans-serif;
 background-color:#FFFFFF;
@@ -37,9 +52,10 @@ box-sizing: border-box;
 position: absolute;
 text-decoration: none;
 width: 1440px;
-height: 72px;
+height: 72px; 
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
+text-decoration: none;
 }
 
 
@@ -85,21 +101,21 @@ order: 0;
 flex-grow: 0;
 }
 
-.menu { 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    text-decoration:none;
+.header-menu { 
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+text-decoration:none;
 }
 
-.menu.header-menu-list {
+.menu>.header-menu-list {
 width: 48px;
 height: 24px;
 font-family: 'Roboto';
@@ -176,6 +192,15 @@ top: 72px;
 background: #2E2F42
 }
 
+/* не працює? */
+/* .main-page{ 
+position: relative;
+width: 1440px;
+height: 2592px;
+background: #FFFFFF;
+} */
+
+
 .main-header-seaction {
 position: absolute;
 width: 496px;
@@ -192,7 +217,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-.open-order-btd {
+.modal-open-btn {
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -204,6 +229,12 @@ top: 428px;
 background: #4D5AE5;
 border-radius: 4px;
 }
+
+.modal-open-btn:hover,
+  .modal-open-btn:focus {
+    background-color: var(--accent-color);
+  }
+  
 
 .secend-section {
 position: absolute;
@@ -587,7 +618,6 @@ height: 48px;
 
 .port-first-section>.buttons>.bts-three {
     box-sizing: border-box;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -595,9 +625,7 @@ align-items: center;
 padding: 12px 24px;
 width: 78px;
 height: 48px;
-/* CLOUD */
 background: #F4F4FD;
-/* CORNFLOWER */
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 flex: none;
