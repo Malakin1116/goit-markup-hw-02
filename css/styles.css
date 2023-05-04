@@ -92,8 +92,7 @@ color:#2e2f42;
 .header-menu-list:focus {
 color: #404bbf;}
 
-.adress-contact-mail,
-.adress-contact-tel {
+.adress-contact-mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -101,9 +100,7 @@ color: #434455;
 }
 
 .adress-contact-mail:hover,
-.adress-contact-mail:focus,
-.adress-contact-tel,
-.adress-contact-tel {
+.adress-contact-mail:focus {
     color: #404bbf ; 
 }
 
